@@ -1,0 +1,60 @@
+/* This link add for use google fonts...  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+body {
+    background: #1d2630;
+}
+
+#Update {
+    display: none;
+}
+
+#UpdateOnData {
+    display: none;
+}
+
+option {
+    color: black;
+}
+
+small {
+    color: red;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 251, 251);
+    border-collapse: collapse;
+  }
+/* input:invalid{
+    border: 2px solid red !important;
+} */
+@media(max-width: 768px){ 
+    .product .form-group{
+        width: 33%;
+    }
+    .but{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        padding: 0 0 10px 0;
+    }
+}
+@media(max-width: 425px){ 
+    .product .form-group{
+        width: 100%;
+    }
+    .but{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        padding: 0 0 10px 0;
+    }
+}
+#table{
+    display: none;
+}
